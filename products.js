@@ -37,7 +37,7 @@ const app = {
           this.data.productList = response.data.products;
           this.render();
         } else {
-          window.location = 'login.html';
+          window.location = 'index.html';
         }
       });
   },
@@ -47,7 +47,7 @@ const app = {
         if (response.data.success) {
           this.getProductList();
         } else {      
-          window.location = 'login.html';
+          window.location = 'index.html';
         }
       });
   },
